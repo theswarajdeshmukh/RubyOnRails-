@@ -1,6 +1,5 @@
 class TasksController < ApplicationController
     def index
-        @tasks = Task.all
-        respond_with(@tasks) 
+        @tasks = Task.all 
     end
 end
