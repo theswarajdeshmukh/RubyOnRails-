@@ -2,14 +2,17 @@
   "name": "RubyOnRails",
   "private": true,
   "dependencies": {
-    "@rails/webpacker": "5.4.0",
+    "@rails/webpacker": "^6.0.0-rc.6",
     "axios": "^0.27.2",
     "babel-plugin-js-logger": "^1.0.17",
     "js-logger": "^1.6.1",
     "react-router-dom": "5.3.0",
-    "tailwindcss": "1.9.6"
+    "tailwindcss": "1.9.6",
+    "webpack": "^5.53.0",
+    "webpack-cli": "^4.8.0"
   },
   "devDependencies": {
-    "webpack-dev-server": "3.11.2"
+    "@webpack-cli/serve": "^1.7.0",
+    "webpack-dev-server": "^4.11.1"
   }
 }
