@@ -12,6 +12,8 @@ const NavBar = () => (
             <NavItem iconClass="ri-add-fill" name="Add" path="/tasks/create" />
           </div>
         </div>
+        <NavItem name="Todos" path="/dashboard" />
+        <NavItem iconClass="ri-add-fill" name="Add" path="/tasks/create" />
         <div className="flex items-center justify-end">
           <a
             className="transition focus:outline-none inline-flex cursor-pointer items-center
